@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: sqlframe
-  version: "3.33.0"
+  version: "3.33.1"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/sqlframe-${{ version }}.tar.gz
-  sha256: 2c8a903e34616ca1f3575e726ab4c619d80fe2b6e20fdcb3a89fb4fefe9c96a0
+  sha256: 4d2d7518e712dc1af925df9237052809f7e246ca2c71a1e33f041c118f37ce6a
 
 build:
   number: 0
