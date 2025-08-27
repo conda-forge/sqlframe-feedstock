@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: sqlframe
-  version: "3.39.2"
+  version: "3.39.3"
 
 package:
   name: ${{ name|lower }}
@@ -10,7 +10,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/sqlframe-${{ version }}.tar.gz
-  sha256: 38304d1402ffaf5eaaae2701749f69c58eb5e339769e4e6b932ecc734c211284
+  sha256: 2a78204aaa9cab1f6a05d3245be8e24d9bf5a341c0dc8e20d5ea1ae04480fbac
 
 build:
   number: 0
@@ -28,6 +28,7 @@ requirements:
     - prettytable <4
     - sqlglot >=24.0.0
     - typing_extensions
+    - more-itertools
 
 tests:
   - python:
