@@ -146,6 +146,3 @@ Feedstock Maintainers
 * [@eakmanrq](https://github.com/eakmanrq/)
 * [@nicornk](https://github.com/nicornk/)
 
-
-<!-- dummy commit to enable rerendering -->
-
