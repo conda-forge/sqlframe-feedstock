@@ -13,7 +13,7 @@ source:
   sha256: d7fddee4934f61d7ae1200c2293ee23fea0222e844b9bf8e35c3424822f74701
 
 build:
-  number: 0
+  number: 1
   noarch: python
   script: ${{ PYTHON }} -m pip install . -vv --no-deps --no-build-isolation
 
@@ -26,7 +26,7 @@ requirements:
   run:
     - python >=${{ python_min }}
     - prettytable <4
-    - sqlglot >=28.0.0,<29.1
+    - sqlglot >=28.0.0,<30.1
     - typing_extensions
     - more-itertools
 
