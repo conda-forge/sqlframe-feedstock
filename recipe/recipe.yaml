@@ -26,7 +26,7 @@ requirements:
   run:
     - python >=${{ python_min }}
     - prettytable <4
-    - sqlglot >=30.0.0,<30.26
+    - sqlglot >=30.0.0,<30.28
     - typing_extensions
     - more-itertools
 
